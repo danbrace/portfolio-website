@@ -1,0 +1,53 @@
+/* GOOGLE FONT */
+/*@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=REM&display=swap");
+*/
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap");
+
+/*
+html {
+    scroll-behavior: smooth;
+}
+*/
+
+body {
+    font-family: 'Jost', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+header {
+    /*
+    background-color: #006A4E;
+    padding: 10px 20px;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    right: 0;
+    
+    font-family: 'Jost', sans-serif;
+}
+
+/*
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+*/
