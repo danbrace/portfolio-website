@@ -19,9 +19,115 @@
         <link rel="stylesheet" href="assets/css/styles.css">
     </head>
 
+    
+    <!-- DON'T FORGET TO COMMENT!!! -->
+    
+    <body>
+        <!-- NAVBAR -->
+        <nav class="navbar fixed-top bg-body navbar-expand-lg p-3 mx-5">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/icons/mountain.png" alt="Mountain Icon" width="70" height="55" class="me-3">
+                    <b>Dan Brace</b>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link fw-bold active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link fw-bold" href="#about">About Me</a>
+                        <a class="nav-link fw-bold" href="#projects">Projects</a>
+                        <a class="nav-link fw-bold" href="#contact">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- HOME PAGE -->
+       <header class="container-fluid d-flex align-items-center justify-content-center vh-100">
+            <div>
+                <h1 class="display-1">Hello!</h1>
+                <h2 class="display-5">I'm Dan, a student and an aspiring software developer.</h2>
+            </div>
+       </header> 
+
+       <hr class="w-50 mx-auto">
+
+       <section id="about" class="container-fluid p-5" style="scroll-margin-top: 70px;">
+            <div class="row text-center pb-4">
+                <h1 class="section-header">About Me</h1>
+            </div>
+            <div class="row justify-content-center mx-auto">
+                <div class="col-3 text-center">
+                    <img src="assets/images/me1.jpg" class="img-fluid rounded" alt="Me" width="300" height="400">
+                </div>
+                <div class="col-9 my-auto">
+                    <h2>
+                        I study computer science and engineering at The Ohio State University (go Bucks!), and
+                        I'm pursuing a career in software development. I want to use my technological skills to help
+                        leave the world in a better state than I found it.
+                        <br><br>
+                        In my free time I enjoy reading, hiking, skiing, and weightlifting. I love to learn about
+                        history, computers, music, and art.
+                        <br><br>
+                        Every day, I strive to cultivate my mind, body, and spirit.
+                    </h2>
+                </div>
+            </div>
+       </section>
+
+       <hr class="w-50 mx-auto">
+
+       <section id="projects" class="container-fluid p-5" style="scroll-margin-top: 70px;">
+            <div class="row text-center pb-4">
+                <h1 class="section-header">Projects</h1>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 g-4 px-5">
+                <div class="col">
+                  <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Portfolio Website</h5>
+                        <p class="card-text">
+                            I developed this portfolio website with JavaScript, HTML, Bootstrap, and CSS.
+                            Concurrently self-taught myself all of these technologies during development.
+                        </p>
+                        <a href="https://github.com/danbrace/portfolio-website" target="_blank" class="btn btn-primary">View code</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Pinball Simulator</h5>
+                        <p class="card-text">
+                            I developed a pinball simulator GUI for my Systems I class using C, and then GDB for debugging.
+                        </p>
+                        <p>
+                            Note: To view code, please email me as releasing this code publicly would violate my college's academic integrity policy.
+                        </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Tic-Tac-Toe</h5>
+                        <p class="card-text">
+                            I created a tic-tac-toe game that can be played from the command line with two people.
+                            This game was written in Python. 
+                        </p>
+                        <a href="https://github.com/danbrace/tictactoe" target="_blank" class="btn btn-primary">View code</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+       </section>
+
+
+    <!--
     <body class="d-flex h-100">
-        <div class="container d-flex p-3 flex-column mx-auto">
-            <!-- HEADER -->
+        <div class="container screen d-flex p-3 flex-column mx-auto">
             <header>
                 <section id="home">
                     <nav class="navbar navbar-expand-lg navbar-light bg-body">
@@ -48,23 +154,49 @@
             </header>
 
             <main class="px-3 py-4">
-                <div class="container text-center">
-                    <div class="row">
-                        <div class="col my-auto">
-                            <h1>Hello!</h1>
+                <div class="container-fluid full-height v-center">
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col my-auto"> my-auto 
+                            <h1 class="display-1">Hello!</h1>
                             <h2>I'm Dan, a student and an aspiring software developer.</h2>
                         </div>
-                        <div class="col">
+                        <div class="col my-auto text-center">
                             <img src="assets/icons/coding.png" class="img-fluid" alt="Rocket Icon" width="300" height="300">
                         </div>
                     </div>
-                    </section>
+
+                    <div class="row">
+                        <section id="about">
+                            <div class="col my-auto">
+                                <h2>A little about me...</h2>
+                            </div>
+                        </section>
+                    </div>
                 </div>
             </main>
 
         </div>
 
+    -->
+
+        <!--
+<div class="row">
+                        <section id="about">
+                            <div class="col my-auto">
+                                <h2>A little bit about me...</h2>
+                            </div>
+                            <div class="col">
+                                <img src="assets/images/me1.jpg" class="img-fluid" alt="Me" width="300" height="400">
+                            </div>
+                            <div class="col">
+
+                            </div>
+                        </section>
+                    </div>
+                -->
+
         <!-- <script src="assets/js/script.js"></script> -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     </body>
+
 </html>

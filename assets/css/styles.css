@@ -11,13 +11,29 @@ html {
 
 body {
     font-family: 'Jost', sans-serif;
-    margin: 0;
+    /*margin: 0;
     padding: 0;
+    /*padding-top: 70px; */
 }
 
 h1 {
     color: #01796F;
     font-weight: bold;
+}
+
+h2 {
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+.section-header {
+    font-weight: bold;
+    font-size: 60px;
+    color: #01796F;
+}
+
+.section-text {
+    font-size: 24px;
 }
 
 /*
