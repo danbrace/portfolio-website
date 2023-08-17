@@ -15,6 +15,7 @@
 
         <!-- BOOTSTRAP -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
 
         <!-- CSS -->
         <link rel="stylesheet" href="assets/css/styles.css">
@@ -22,10 +23,6 @@
         <!-- FONT AWESOME -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     </head>
-
-    
-    <!-- DON'T FORGET TO COMMENT!!! -->
-    <!-- ADD ICON FOR TAB -->
     
     <body>
         <!-- NAVBAR -->
@@ -53,7 +50,20 @@
        <header class="container-fluid d-flex align-items-center justify-content-center vh-100">
             <div>
                 <h1 class="display-1">Hello!</h1>
-                <h2 class="display-5">I'm Dan, a student and an aspiring software developer.</h2>
+                <!-- Maybe make this look like it's getting typed out when home page gets loaded -->
+                <h3 class="display-5">I'm Dan, a student and an aspiring software developer.</h3>
+                
+                <div class="mt-4">
+                    <a href="assets/docs/resume.pdf" target="_blank" class="btn btn-primary bg-custom btn-outline-custom me-3">
+                        <i class="bi bi-file-earmark-text"></i> Resume
+                    </a>
+                    <a href="https://github.com/danbrace" target="_blank" class="btn btn-primary bg-custom btn-outline-custom me-3">
+                        <i class="bi bi-github"></i> GitHub
+                    </a>
+                    <a href="https://linkedin.com/in/dan-brace" target="_blank" class="btn btn-primary bg-custom btn-outline-custom me-3">
+                        <i class="bi bi-linkedin"></i> LinkedIn
+                    </a>
+                </div>
             </div>
        </header> 
 
@@ -69,7 +79,7 @@
                     <img src="assets/images/me1.jpg" class="img-fluid rounded" alt="Me" width="300" height="400">
                 </div>
                 <div class="col-9 my-auto">
-                    <h2>
+                    <h3>
                         I study computer science and engineering at The Ohio State University (go Bucks!), and
                         I'm pursuing a career in software development. I want to use my technological skills to help
                         leave the world in a better state than I found it.
@@ -78,7 +88,7 @@
                         history, computers, music, and art.
                         <br><br>
                         Every day, I strive to cultivate my mind, body, and spirit.
-                    </h2>
+                    </h3>
                 </div>
             </div>
        </section>
@@ -90,16 +100,18 @@
             <div class="row text-center pb-4">
                 <h1 class="section-header">Projects</h1>
             </div>
-            <div class="row row-cols-1 row-cols-md-3 g-4 px-5">
+            <div class="row row-cols-1 row-cols-md-4 g-4 px-5">
                 <div class="col">
                   <div class="card">
                     <div class="card-body">
                         <h5 class="card-title text-center">Portfolio Website</h5>
                         <p class="card-text">
-                            I developed this portfolio website with JavaScript, HTML, Bootstrap, and CSS.
+                            I developed this portfolio website with HTML, CSS, and Bootstrap.
                             Concurrently self-taught myself all of these technologies during development.
                         </p>
-                        <a href="https://github.com/danbrace/portfolio-website" target="_blank" class="btn btn-primary">View code</a>
+                        <div class="d-grid mx-auto">
+                            <a href="https://github.com/danbrace/portfolio-website" target="_blank" class="btn btn-primary bg-custom btn-outline-custom">View code</a>
+                        </div>
                     </div>
                   </div>
                 </div>
@@ -119,48 +131,79 @@
                 <div class="col">
                   <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title text-center">Tic-Tac-Toe</h5>
+                        <h5 class="card-title text-center">Pong Game</h5>
                         <p class="card-text">
-                            I created a tic-tac-toe game that can be played from the command line with two people.
-                            This game was written in Python. 
+                            I made a simple Pong game, written in C. I used the SDL2 graphics library to create the game's GUI.
                         </p>
-                        <a href="https://github.com/danbrace/tictactoe" target="_blank" class="btn btn-primary">View code</a>
+                        <div class="d-grid mx-auto">
+                            <a href="https://github.com/danbrace/pong-game" target="_blank" class="btn btn-primary bg-custom btn-outline-custom">View code</a>
+                        </div>
                     </div>
                   </div>
                 </div>
                 <div class="col">
                   <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title text-center">Pong Game</h5>
+                        <h5 class="card-title text-center">Tic-Tac-Toe</h5>
                         <p class="card-text">
-                            I made a simple Pong game, written in C. I used the SDL2 graphics library to create the game's GUI.
+                            I created a tic-tac-toe game that can be played from the command line with two people.
+                            This game was written in Python. 
                         </p>
-                        <a href="https://github.com/danbrace/pong-game" target="_blank" class="btn btn-primary">View code</a>
+                        <div class="d-grid mx-auto">
+                            <a href="https://github.com/danbrace/tictactoe" target="_blank" class="btn btn-primary bg-custom btn-outline-custom">View code</a>
+                        </div>
                     </div>
                   </div>
                 </div>
               </div>
        </section>
 
+       <hr class="w-50 mx-auto">
+
+       <!-- CONTACT -->
+        <section id="contact" class="container-fluid p-5" style="scroll-margin-top: 70px;">
+            <div class="row text-center pb-4">
+                <h1 class="section-header">Contact Me</h1>
+            </div>
+            <div class="row text-center">
+                <div class="col">
+                    <h2 class="pb-2">
+                        <i class="bi bi-telephone-fill pe-2"></i> Phone
+                    </h2>
+                    <h3>
+                        +1 (216) 319-1446
+                    </h3>
+                </div>
+                <div class="col">
+                    <h2 class="pb-2">
+                        <i class="bi bi-envelope-fill pe-2"></i> Email
+                    </h2>
+                    <h3>
+                        danrbrace@protonmail.com
+                    </h3>
+                </div>
+            </div>
+        </section>
+
        <!-- FOOTER -->
-       <footer class="bg-dark text-light py-4">
+       <footer class="bg-dark text-light py-3">
             <div class="container">
                 <div class="row">
                     <div class="col text-center">
                         <ul class="list-unstyled">
                             <li class="list-inline-item">
-                                <a href="https://www.linkedin.com/in/dan-brace" target="_blank">
-                                    <i class="fab fa-linkedin fa-lg"></i>
+                                <a href="https://github.com/danbrace" target="_blank">
+                                    <i class="fab fa-github fa-lg" style="color: #ffffff;"></i>
                                 </a>
                             </li>
                             <li class="list-inline-item">
-                                <a href="https://github.com/danbrace" target="_blank">
-                                    <i class="fab fa-github fa-lg"></i>
+                                <a href="https://www.linkedin.com/in/dan-brace" target="_blank">
+                                    <i class="fab fa-linkedin fa-lg" style="color: #ffffff;"></i>
                                 </a>
                             </li>
                             <li class="list-inline-item">
                                 <a href="https://www.instagram.com/danrbrace" target="_blank">
-                                    <i class="fab fa-instagram fa-lg"></i>
+                                    <i class="fab fa-instagram fa-lg" style="color: #ffffff;"></i>
                                 </a>
                             </li>
                         </ul>
@@ -169,9 +212,7 @@
             </div>
         </footer>
 
-
-            <!-- <script src="assets/js/script.js"></script> -->
+        <!-- BOOTSTRAP -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     </body>
-
 </html>

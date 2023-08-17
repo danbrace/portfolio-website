@@ -1,19 +1,12 @@
 /* GOOGLE FONT */
-/*@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=REM&display=swap");
-*/
 @import url("https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap");
-
 
 html {
     scroll-behavior: smooth;
 }
 
-
 body {
     font-family: 'Jost', sans-serif;
-    /*margin: 0;
-    padding: 0;
-    /*padding-top: 70px; */
 }
 
 h1 {
@@ -22,6 +15,12 @@ h1 {
 }
 
 h2 {
+    color: #01796F;
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+h3 {
     font-weight: lighter;
     font-size: 30px;
 }
@@ -36,39 +35,22 @@ h2 {
     font-size: 24px;
 }
 
-/*
-header {
-    /*
-    background-color: #006A4E;
-    padding: 10px 20px;
-    color: #fff;
-    position: fixed;
-    top: 0;
-    right: 0;
-    
-    font-family: 'Jost', sans-serif;
+/* Custom button color */
+.bg-custom {
+    background-color: #01796F;
+} 
+
+/* Custom button color for hovering */
+.bg-custom:hover {
+    background-color: #57a7a0; /* Lighter shade of green */
 }
 
-/*
-
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+/* Custom button border color */
+.btn-outline-custom {
+    border-color: #01796F;
 }
 
-nav li {
-    display: inline-block;
-    margin-right: 20px;
+/* Custom button border color for hovering */
+.btn-outline-custom:hover {
+    border-color: #57a7a0; /* Lighter shade of green */
 }
-
-nav a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 18px;
-}
-
-nav a:hover {
-    text-decoration: underline;
-}
-*/
