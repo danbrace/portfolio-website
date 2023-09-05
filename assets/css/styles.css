@@ -1,12 +1,16 @@
 /* GOOGLE FONT */
-@import url("https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap");
+/*@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');*/
+
+ @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 html {
     scroll-behavior: smooth;
 }
 
 body {
-    font-family: 'Jost', sans-serif;
+    /*font-family: 'IBM Plex Serif', serif;*/
+    font-family: 'Roboto', sans-serif;
 }
 
 h1 {
@@ -23,6 +27,14 @@ h2 {
 h3 {
     font-weight: lighter;
     font-size: 30px;
+}
+
+a {
+    color: black; /*#01796F;*/
+}
+
+a:hover {
+    color: #57a7a0; /* Lighter shade of green */
 }
 
 .section-header {
