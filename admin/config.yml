@@ -1,0 +1,74 @@
+backend:
+  name: git-gateway
+  branch: main
+
+collections:
+  - name: "portfolio"
+    label: "Portfolio Content"
+    file: "data.json"
+    format: "json"
+    fields:
+      - label: "Hero"
+        name: "hero"
+        widget: "object"
+        collapsed: false
+        fields:
+          - { label: "Kicker", name: "kicker", widget: "string" }
+          - { label: "Title (HTML)", name: "titleHtml", widget: "string" }
+          - { label: "Role block (HTML)", name: "roleHtml", widget: "string" }
+          - { label: "Description", name: "description", widget: "string" }
+
+      - label: "About"
+        name: "about"
+        widget: "object"
+        collapsed: false
+        fields:
+          - { label: "Bio (HTML)", name: "bio", widget: "text" }
+
+      - label: "Experience"
+        name: "experience"
+        widget: "list"
+        fields:
+          - { label: "Period", name: "period", widget: "string" }
+          - { label: "Role", name: "role", widget: "string" }
+          - { label: "Company", name: "company", widget: "string" }
+          - { label: "Description", name: "description", widget: "text" }
+          - label: "Tags"
+            name: "tags"
+            widget: "list"
+            field: { label: "Tag", name: "tag", widget: "string" }
+            required: false
+
+      - label: "Projects"
+        name: "projects"
+        widget: "list"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "text" }
+          - { label: "Link", name: "link", widget: "string", required: false }
+          - label: "Tags"
+            name: "tags"
+            widget: "list"
+            field: { label: "Tag", name: "tag", widget: "string" }
+            required: false
+
+      - label: "Skills"
+        name: "skills"
+        widget: "list"
+        fields:
+          - { label: "Group Name", name: "group", widget: "string" }
+          - label: "Items"
+            name: "items"
+            widget: "list"
+            fields:
+              - { label: "Skill Name", name: "name", widget: "string" }
+              - { label: "Level (1-5)", name: "level", widget: "number", value_type: "int", min: 1, max: 5 }
+
+      - label: "Contact"
+        name: "contact"
+        widget: "object"
+        collapsed: false
+        fields:
+          - { label: "Email", name: "email", widget: "string" }
+          - { label: "LinkedIn (username only)", name: "linkedin", widget: "string", required: false }
+          - { label: "GitHub (username only)", name: "github", widget: "string", required: false }

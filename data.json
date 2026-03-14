@@ -1,0 +1,97 @@
+{
+  "hero": {
+    "kicker": "Software Engineer",
+    "titleHtml": "Dan<br><em>Brace</em>",
+    "roleHtml": "Based in Columbus, OH<br>Open to work",
+    "description": "Fueled by curiosity, a constant pursuit of learning, and a desire to make the world a better place."
+  },
+  "about": {
+    "bio": "Curiosity has been a significant force in my life since childhood. I grew up building with Legos, watching shows like MythBusters and How It’s Made, and tinkering with electronic components — all of which sparked in me a desire not only to create, but to understand how and why things work. That same curiosity continues to shape the way I see the world. I love to travel, try new foods, and connect with people from backgrounds completely different from my own, because each new experience helps me better understand the world, its people, and our place within it. Ultimately, that curiosity led me to become the engineer I am today: someone driven to solve real-world problems, innovate, push the boundaries of what’s possible, and leave the world better than I found it."
+  },
+  "experience": [
+    {
+      "period": "2025 — 2026",
+      "role": "Software Engineer I - Android",
+      "company": "FOX Sports",
+      "description": "Implemented live game score push notification functionality, reaching tens of thousands of users across multiple sports. Built UI for V2 event pages using Jetpack Compose, significantly improving look and structure of core app experience. Developed new features for the 2026 FIFA World Cup including advanced game insights, player ratings, and shot metrics. Utilized Charles Proxy and Postman to intercept network traffic, validate API data integrity, and streamline API integration. Leveraged AI tools including Cursor and Figma MCP to accelerate development workflows and grow technical knowledge.",
+      "tags": ["Kotlin", "Jetpack Compose", "Charles Proxy", "Postman", "API Integration", "REST/JSON"]
+    },
+    {
+      "period": "2024 — 2025",
+      "role": "Software Engineer Intern - Android",
+      "company": "FOX Sports",
+      "description": "Contributed full-time during summer 2024 and part-time during the academic year while maintaining a full course load. Wrote and shipped production Kotlin code for the FOX Sports Android app used by millions of sports fans nationwide. Built clean and robust UI components using Jetpack Compose to enhance user experience and code maintainability. Created an automated UI testing suite with Google's Espresso library, ensuring functionality and a seamless user experience.",
+      "tags": ["Kotlin", "Jetpack Compose", "Charles Proxy", "Postman", "API Integration", "REST/JSON", "Espresso"]
+    },
+    {
+      "period": "SUMMER 2023",
+      "role": "Tour Guide and Deckhand",
+      "company": "Adventure Sitka",
+      "description": "Led kayak tours for diverse groups of tourists, enabling them to explore the picturesque waters and islands of Sitka. Assessed weather and water conditions to make critical decisions regarding the safety of guests prior to and during tours. Shared in-depth knowledge of Sitka’s marine ecosystems, wildlife, and history, enhancing the educational experience.",
+      "tags": ["Leadership", "Public Speaking", "Teamwork", "Customer Service"]
+    },
+    {
+      "period": "SUMMER 2022",
+      "role": "Tour Guide",
+      "company": "Cycle Alaska",
+      "description": "Led guests on scenic bike routes in Juneau, showcasing the beauty of the Tongass National Forest’s flora and fauna. Promoted eco-friendly practices by educating guests on Leave No Trace principles and local conservation efforts. Conducted routine checks and maintenance on bikes to ensure they were in optimal working condition for tours.",
+      "tags": ["Leadership", "Public Speaking", "Teamwork", "Customer Service"]
+    }
+  ],
+  "projects": [
+    {
+      "title": "GymBuddy",
+      "description": "Developed an Android app that allows Ohio State students to view real-time occupancy data for campus gym facilities. Integrated OSU’s public API to fetch and process live gym occupancy data, handling data parsing and dynamic UI updates. Implemented location services to detect user position and provide the nearest campus gym, improving user personalization. Built a clean, responsive UI using Jetpack Compose, applying UI principles learned through internship experience.",
+      "link": "https://github.com/21clorence/GymBuddy",
+      "tags": ["Kotlin", "Jetpack Compose", "API Integration", "REST/JSON"]
+    },
+    {
+      "title": "Pong Game",
+      "description": "Designed and implemented a classic Pong game from scratch using the C programming language and SDL2 graphics library. Leveraged the SDL2 library to handle graphics, rendering, and user input, resulting in an engaging and interactive game. Developed the game’s core logic and physics engine, including ball movement, paddle mechanics, and collision detection.",
+      "link": "https://github.com/danbrace/pong-game",
+      "tags": ["C", "SDL2", "GUI"]
+    },
+    {
+      "title": "Abstract Machine Simulator",
+      "description": "Built an abstract machine simulator in Java demonstrating a deep understanding of computer architecture and execution. Implemented loader, interpreter, and simulator components to accurately replicate the execution of the abstract machine. Conducted rigorous testing using JUnit to verify its accuracy and reliability in emulating the abstract machine’s behavior.",
+      "link": "",
+      "tags": ["Java", "JUnit"]
+    }
+  ],
+  "skills": [
+    {
+      "group": "Languages",
+      "items": [
+        { "name": "Kotlin", "level": 5 },
+        { "name": "Java", "level": 4 },
+        { "name": "Python", "level": 3 },
+        { "name": "C", "level": 3 },
+        { "name": "x86 Assembly", "level": 2 },
+        { "name": "MATLAB", "level": 2}
+      ]
+    },
+    {
+      "group": "Frameworks + Libraries",
+      "items": [
+        { "name": "Jetpack Compose", "level": 5 },
+        { "name": "Espresso", "level": 3 },
+        { "name": "JUnit", "level": 3 }
+      ]
+    },
+    {
+      "group": "Tools",
+      "items": [
+        { "name": "Git", "level": 4 },
+        { "name": "Cursor", "level": 4 },
+        { "name": "Charles Proxy", "level": 4 },
+        { "name": "Postman", "level": 3 },
+        { "name": "Figma", "level": 3 }
+      ]
+    }
+  ],
+  "contact": {
+    "email": "danrbrace@protonmail.com",
+    "linkedin": "dan-brace",
+    "github": "danbrace"
+  }
+}
